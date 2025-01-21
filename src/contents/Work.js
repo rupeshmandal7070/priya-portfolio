@@ -2,9 +2,14 @@ import React from 'react'
 
 const Work = () => {
 
-    const data = [{},{},{},{},{},{},{},{}]
+    const data = [
+        {
+        title:"",
+        link:"",
+        image:""
+    },{},{},{},{},{}]
   return (
-    <div className='bg-[#0f103f] h-auto flex justify-center w-full flex-col items-center pt-[50px]'>
+    <div  className='bg-[#0f103f] h-auto flex justify-center w-full flex-col items-center pt-[50px]'>
 
 <div>
     <div className='text-white text-[20px] font-[600]'>My Recent work</div>

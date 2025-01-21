@@ -1,4 +1,3 @@
-
 import './App.css';
 import About from './contents/About';
 import Contact from './contents/Contact';
@@ -9,11 +8,19 @@ import Work from './contents/Work';
 function App() {
   return (
     <div>
-        <Navbar/>
-        <About/>
-        <Work/>
-        <Contact/>
-        <Footer/>
+      <div id='home'>
+      <Navbar />
+      </div>
+      <div id="about">
+        <About />
+      </div>
+      <div id="work">
+        <Work />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
+      <Footer />
     </div>
   );
 }
