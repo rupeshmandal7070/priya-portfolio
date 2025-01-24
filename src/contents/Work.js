@@ -44,7 +44,7 @@ const Work = () => {
 {
     data.map((item,index)=>(
             <a key={index} href={item?.link} target="_blank" rel="noopener noreferrer" className='h-[325px] w-[40%] bg-[#727894] rounded-[30px] border flex flex-col justify-center items-center gap-[20px] '>
-                <img src={item?.image} className='w-[80%] h-[220px] mt-[20px] object-cover rounded-[5px]'/>
+                <img src={item?.image} className='w-[80%] h-[220px] mt-[20px] object-contain rounded-[5px]'/>
                 <div className='bg-[#51576c] w-full h-[60px] flex justify-center items-center rounded-b-[30px]'>
                     <div className='text-white text-[24px] font-[600]'>{item?.title}</div>
                 </div>
