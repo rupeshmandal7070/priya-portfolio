@@ -42,7 +42,7 @@ const Navbar = () => {
             Priya Bora
         </div>
       </div>
-        <div className='w-[45%] text-white mt-5'>"Crafting intuitive, user-centered designs that merge aesthetics with functionality for seamless digital experiences."</div>
+        <div className='w-[50%] text-white mt-5 text-left'>"Crafting intuitive, user-centered designs that merge aesthetics with functionality for seamless digital experiences."</div>
         <div className='flex gap-[60px] mt-10 w-[60%] justify-center'>
             <button className='text-white border border-white px-[50px] py-2 rounded-[20px] bg-[#BEBEBE]'>Hire me</button>
             <a href='https://drive.google.com/drive/folders/1G__hrYCMQVPE-M085zIfSJrjvI_NKAAM?usp=sharing'>
