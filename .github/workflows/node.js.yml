@@ -27,6 +27,6 @@ jobs:
         cache: 'npm'
     - run: npm install --force
     - run: CI=false npm run build
-    - run: sudo cp -r /home/ubuntu/time-recording-portal/_work/react-project/react-project/build/* /var/www/react-project/build
+  
 
    
