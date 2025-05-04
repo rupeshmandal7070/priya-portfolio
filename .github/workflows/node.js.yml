@@ -27,7 +27,7 @@ jobs:
         cache: 'npm'
     - run: npm install --force
     - run: CI=false npm run build
-    - run: sudo cp -r /home/ubuntu/time-recording-portal/_work/priya-portfolio/priya-portfolio/build/* /var/www/priya-portfolio/build
+    - run: sudo cp -r /home/ubuntu/react-project/_work/priya-portfolio/priya-portfolio/build/* /var/www/priya-portfolio/build
   
 
    
